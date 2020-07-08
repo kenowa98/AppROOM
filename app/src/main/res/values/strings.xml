@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Deudores</string>
+    <string name="title_list">List</string>
+    <string name="title_create">Create</string>
+    <string name="title_read">Search</string>
+    <string name="title_update">Edit</string>
+    <string name="title_delete">Delete</string>
+    <string name="nombre">Nombre</string>
+    <string name="celular">Celular</string>
+    <string name="extensión">+57</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="guardar">Guardar</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+</resources>

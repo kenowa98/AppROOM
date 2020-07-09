@@ -2,9 +2,25 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/cadetblue</item>
+        <item name="colorPrimary">@color/gold</item>
         <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorAccent">@color/teal</item>
+        <item name="colorAccent">@color/gold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeCustomToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="actionMenuTextColor">@android:color/black</item>
+    </style>
+
+    <style name="AppThemeCustomMenuToolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="overlapAnchor">false</item>
     </style>
 
 </resources>

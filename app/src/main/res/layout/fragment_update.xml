@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -36,9 +37,9 @@
             android:id="@+id/bt_buscarUpdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/darkcyan"
+            android:background="@color/gold"
             android:text="@string/buscar"
-            android:textColor="@color/azure"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -46,9 +47,9 @@
             android:id="@+id/bt_buscar2Update"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/darkcyan"
+            android:background="@color/gold"
             android:text="@string/buscar"
-            android:textColor="@color/azure"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -97,10 +98,12 @@
             android:id="@+id/bt_actualizar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/darkcyan"
+            android:background="@color/gold"
             android:text="@string/actualizar"
-            android:textColor="@color/azure"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
+
     </LinearLayout>
+
 </ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:context=".RecordActivity">
+
+        <TextView
+            android:id="@+id/tv_registro_lb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_titulo"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="24sp"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/et_celular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/celular"
+            android:inputType="number"
+            android:textSize="24sp"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/et_clave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/clave"
+            android:inputType="textPassword"
+            android:textSize="24sp"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/et_claveAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/claveAgain"
+            android:inputType="textPassword"
+            android:textSize="24sp"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/tv_genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn_masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/sexM"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/rbtn_femenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sexF"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/gold"
+            android:text="@string/guardar"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

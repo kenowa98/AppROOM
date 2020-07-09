@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Deudores</string>
+    <string name="title_splash">DEUDORES</string>
+
     <string name="title_list">List</string>
     <string name="title_create">Create</string>
     <string name="title_read">Search</string>
     <string name="title_update">Edit</string>
     <string name="title_delete">Delete</string>
+
     <string name="nombre">Nombre</string>
     <string name="celular">Celular</string>
     <string name="extensión">+57</string>
@@ -13,4 +16,18 @@
     <string name="buscar">Buscar</string>
     <string name="actualizar">Actualizar</string>
     <string name="eliminar">Eliminar</string>
+
+    <string name="registro_titulo">REGISTRO</string>
+    <string name="email">Correo electrónico</string>
+    <string name="clave">Contraseña</string>
+    <string name="claveAgain">Confirmar contraseña</string>
+    <string name="sexo">Género</string>
+    <string name="sexF">Femenino</string>
+    <string name="sexM">Masculino</string>
+
+    <string name="bt_login">ENTRAR</string>
+    <string name="bt_registro">REGISTRARSE</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <string name="action_close">Cerrar sesión</string>
 </resources>
